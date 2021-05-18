@@ -46,6 +46,7 @@ hr{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: whitesmoke;
+    padding: 2rem;
 }
 
 .secondary-link {
@@ -148,4 +149,9 @@ text-align: center;
 
 .footer .ul{
     padding-inline-start: 0rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
