@@ -4,8 +4,10 @@ body {
 
 :root{
     --primary-color:purple;
-    --dark-grey:#4B5563
+    --dark-grey:#4B5563;
+    --grey-color:#E5E7EB ;
 }
+    
 
 
 h1 {
@@ -23,6 +25,7 @@ h2 {
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 body{ 
     font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
 }
 
 hr{
@@ -105,7 +108,8 @@ text-align: center;
 }
 
 .hero .hero-heading {
-padding-top: 1rem;
+   text-align: center;
+    padding-top: 1rem;
    font-size: 2rem;
    color: var(--dark-grey);
 }
@@ -115,3 +119,33 @@ padding-top: 1rem;
 }
 
 /**section**/
+.section{
+    padding: 2rem;
+}
+
+.section h2 {
+    text-align: center;
+    
+}
+
+.section-color {
+    background-color: var(--grey-color);
+}
+
+/**footer**/
+
+.footer{
+    background-color: var(--primary-color );
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: whitesmoke;
+}
+
+.footer .ul{
+    padding-inline-start: 0rem;
+}
