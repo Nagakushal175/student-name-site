@@ -2,6 +2,11 @@ body {
     color: yellowgreen;
 }
 
+:root{
+    --primary-color:purple;
+    --dark-grey:#4B5563
+}
+
 
 h1 {
     color: tomato;
@@ -19,3 +24,94 @@ h2 {
 body{ 
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+hr{
+    margin: 2rem 0rem;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.centered-container{
+    max-width: 600px;
+    margin: auto;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: whitesmoke;
+}
+
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var;
+    (--primary-color); 
+}
+
+.link{
+    text-decoration:none;
+    padding: 1rem 1rem;
+}
+
+/**lists**/
+
+.non-bullet{
+    list-style: none;
+}
+
+.list-tem-inline{
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+
+.navigation{
+    background-color: var(--primary-color);
+    color: cornsilk;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .link{
+    color: whitesmoke;
+}
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .list-active{
+    font-weight: bold;
+}
+
+/**header**/
+
+.hero {
+padding: 2rem;
+text-align: center;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+padding-top: 1rem;
+   font-size: 2rem;
+   color: var(--dark-grey);
+}
+
+.hero  .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+/**section**/

@@ -14,42 +14,77 @@
     <hr>
     <h2>@containers</h2>
     <h3>fluid conatiners</h3>
-    <div>hello</div>
+    <div class="container ">hello</div>
     <h3>centre conatiners</h3>
-    <div>world</div>
+    <div class="container centered-container">world</div>
     <hr>
     <h2>@links</h2>
-    <a href="https://www.google.com/" >GOOGLE</a> <a href="https://mail.google.com/mail/u/0/#inbox" >mail</a>
-    <a href="https://www.facebook.com/" >FACEBOOK</a>
+    <a class="link primary-link" href="https://www.google.com/" >GOOGLE</a> 
+    <a class="link secondary-link" href="https://mail.google.com/mail/u/0/#inbox" >MAIL</a>
+    <a class="link primary-link " href="https://www.facebook.com/" >FACEBOOK</a>
     <hr>
     <h2>@list</h2>
     <h3>1.unorderd list</h3>
-    <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+    <ul class="non-bullet">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
     </ul>
- <h3>2.ordered list</h3>
-<ol>
+    <h3>1.unorderd inline list</h3>
+    <ul class="non-bullet">
+        <li class="list-tem-inline">inline item one </li>
+        <li class="list-tem-inline">inline item two</li>
+        <li class="list-tem-inline">inline item three</li>
+    </ul>
+
+ <h3>3.ordered list</h3>
+<ol reversed>
     <li>a</li>
     <li>b</li>
     <li>c</li>
 </ol>
+
 <hr>
+
 <h2>@nav</h2>
-<nav>
-    <div>iambrand</div>
-    <ul>
-        <li>
-            <a href="https://www.google.com/">GOOGLE</a>
+<nav class="navigation container">
+    <div class="nav-brand">iambrand</div>
+    <ul class="list-non-bullet nav-pills">
+        <li class=".list-tem-inline list-active">
+            <a class="link" href="/">HOME</a>
+            <a class="link" href="/">PRODUCT</a>
+            <a class="link" href="/">SERVICE</a>
         </li>
     </ul>
 </nav>
+
+<hr>
+
 <h2>@header</h2>
-<header>
-    <img src="images/hero.svg"/>
+<header class="hero">
+    <img class="hero-img" src="images/hero.svg"/>
+    <h1 class="hero-heading"> Adarsh Balika the <span class="heading-inverted"> web developer</span>  </h1>
 
 </header>
+<hr>
+<h2>@section</h2>
+<section>
+   <h3>White section</h3>
+   <p>This will have only white background</p>
+</section>
+
+<section>
+    <h3> off White section</h3>
+    <p>This will have grey background</p>
+
+</section>
+<hr>
+
+<h2>@footer</h2>
+<footer>
+
+
+</footer>
 
 </body>
 </html>
